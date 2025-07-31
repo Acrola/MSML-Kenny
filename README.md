@@ -51,7 +51,7 @@ Advanced Alerting System: Configured three distinct alerting rules within Grafan
 
 Repository Structure
 This repository is organized into distinct directories, each corresponding to a major phase of the MLOps pipeline, ensuring clarity, modularity, and ease of navigation:
-
+```
 .
 ├── README.md                                 # This file
 ├── .github/workflows/                        # GitHub Actions workflows for CI/CD
@@ -89,4 +89,4 @@ This repository is organized into distinct directories, each corresponding to a 
 ├── DAGsHub.txt                               # Text file containing the link to the DagsHub repository for online MLflow tracking
 ├── DOCKER_HUB_LINK.txt                       # Text file containing the link to the Docker Hub repository for model images
 └── .gitignore                                # Specifies intentionally untracked files to ignore
-
+```
