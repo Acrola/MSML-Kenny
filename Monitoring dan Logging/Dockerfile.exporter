@@ -1,0 +1,14 @@
+# Dockerfile.exporter
+FROM python:3.9-slim-buster
+
+WORKDIR /app
+
+COPY requirements_exporter.txt .
+RUN pip install --no-cache-dir -r requirements_exporter.txt
+
+COPY prometheus_exporter.py .
+
+# The port where the Flask app will run and expose /metrics
+EXPOSE 5000 
+
+CMD ["python", "prometheus_exporter.py"]

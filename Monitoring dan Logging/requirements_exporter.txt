@@ -1,0 +1,4 @@
+Flask
+requests
+psutil
+prometheus_client
