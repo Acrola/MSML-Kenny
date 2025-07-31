@@ -103,19 +103,19 @@ This repository serves as the central entry point and documentation hub for the 
 │   ├── 4.bukti monitoring Prometheus/        # Directory containing Prometheus monitoring screenshots.
 │   │   ├── 1.monitoring_<metrics>
 │   │   ├── 2.monitoring_<metrics>
-│   │   └── dst (adjust based on points achieved)
+│   │   └── etc.
 │   ├── 5.bukti monitoring Grafana/           # Directory containing Grafana monitoring screenshots.
 │   │   ├── 1.monitoring_<metrics>
 │   │   ├── 2.monitoring_<metrics>
-│   │   └── dst (adjust based on points achieved)
+│   │   └── etc.
 │   ├── 6.bukti alerting Grafana/             # Directory containing Grafana alerting proof screenshots.
 │   │   ├── 1.rules_<metrics>
 │   │   ├── 2.notifikasi_<metrics>
 │   │   ├── 3.rules_<metrics>
 │   │   ├── 4.notifikasi_<metrics>
-│   │   └── dst (adjust based on points achieved)
+│   │   └── etc.
 │   ├── 7.inference.py                        # Inference script for the served model.
 │   └── folder/file tambahan                  # Additional relevant folders/files for monitoring/logging.
-└── .gitignore                                # Specifies intentionally untracked files to ignore.
+└── .gitattributes                            # Specifies attributes for paths (e.g., text vs. binary, line endings).
 
 ```
