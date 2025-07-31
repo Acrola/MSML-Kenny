@@ -1,5 +1,5 @@
 # Final Project: End-to-End Diabetes Prediction System with MLOps
-##Project Overview
+## Project Overview
 This project delivers a comprehensive and automated system for predicting diabetes based on various health indicators. It encompasses the entire Machine Learning Operations (MLOps) lifecycle, from initial data experimentation and robust model building to continuous integration (CI) and advanced monitoring and logging. The primary goal is to provide an accurate and reliable predictive tool while ensuring the model's efficiency, scalability, and maintainability in a production-like environment.
 
 Key Challenges Addressed:
