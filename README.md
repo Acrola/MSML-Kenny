@@ -1,2 +1,2 @@
 # Proyek_Akhir_MSML_Kenny
-Proyek Akhir Kelas Membangung Sistem Machine Learning
+Proyek Akhir Kelas Membangun Sistem Machine Learning
